@@ -48,7 +48,7 @@ public class Clientes {
     @Override
 
     public String toString(){
-        return id + "," + nome + "," + email;
+        return "ID: " + id + ", " + "Nome: " + nome + ", " + "Email: "+ email;
     }
 
 
