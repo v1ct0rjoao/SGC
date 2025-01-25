@@ -1,0 +1,60 @@
+Sistema de Gestão de Clientes com Persistência de Dados
+Objetivo Geral
+Criar um sistema simples de cadastro de clientes, utilizando conceitos de programação orientada a objetos (POO), coleções (HashMap) e persistência de dados com arquivos de texto.
+
+Funcionalidades do Sistema
+Adicionar Cliente
+
+Permitir que o usuário cadastre novos clientes.
+O cliente deve ter os seguintes atributos:
+ID (inteiro, único).
+Nome (texto).
+Email (texto).
+Validação: Verificar se o ID já existe antes de adicionar.
+Editar Cliente
+
+Permitir que o usuário edite as informações de um cliente existente.
+O usuário fornecerá o ID do cliente para identificação.
+Atualize o nome e/ou email do cliente no HashMap e no arquivo de texto.
+Excluir Cliente
+
+Permitir que o usuário exclua um cliente do sistema.
+O cliente será identificado pelo ID fornecido pelo usuário.
+Remova o cliente do HashMap e atualize o arquivo de texto.
+Listar Clientes
+
+Exibir todos os clientes cadastrados com suas informações.
+
+
+Estrutura do Código
+Classe Cliente
+
+Representa um cliente com os atributos id, nome, e email.
+Deve incluir:
+Construtor: Para inicializar os atributos.
+Getters e Setters: Para acessar e modificar os atributos.
+toString: Para formatar o cliente como uma string no formato: ID,Nome,Email.
+Classe SistemaClientes
+
+Gerencia as funcionalidades do sistema.
+Inclui:
+HashMap: Usado para armazenar os clientes temporariamente.
+Chave: ID do cliente.
+Valor: Objeto da classe Cliente.
+Arquivo de Texto: Usado para persistência de dados.
+Armazena os clientes no formato: ID,Nome,Email.
+Métodos Principais:
+carregarClientes: Lê os clientes do arquivo de texto e carrega no HashMap.
+salvarClientes: Escreve os dados do HashMap no arquivo de texto.
+adicionarCliente: Adiciona um cliente ao HashMap e atualiza o arquivo.
+editarCliente: Atualiza os dados de um cliente no HashMap e no arquivo.
+excluirCliente: Remove um cliente do HashMap e do arquivo.
+listarClientes: Exibe todos os clientes cadastrados.
+Método Principal (main):
+
+Implementa o menu de opções para o usuário:
+Adicionar Cliente.
+Editar Cliente.
+Excluir Cliente.
+Listar Clientes.
+Sair do Programa.
