@@ -1,14 +1,25 @@
-# SGC
-Sistema de Gestão de Clientes
-Este projeto é um sistema simples de cadastro e gerenciamento de clientes, utilizando conceitos de Programação Orientada a Objetos (POO) em Java. O sistema permite adicionar, listar, editar e excluir clientes de um arquivo de texto (clientes.txt) usando um HashMap para armazenar os dados temporariamente durante a execução.
+# SGC (Sistema de Gestão Completo) 📊
 
-# Funcionalidades:
-Adicionar Cliente: O usuário pode adicionar um novo cliente fornecendo o ID, nome e e-mail. O cliente é armazenado no HashMap e no arquivo de texto.
-Listar Clientes: Exibe todos os clientes cadastrados, mostrando o ID, nome e e-mail de cada um.
-Editar Cliente: Permite editar o nome ou e-mail de um cliente existente, fornecendo o ID do cliente a ser modificado.
-Excluir Cliente: Remove um cliente do sistema, deletando o cliente do HashMap e atualizando o arquivo de texto.
+O SGC é um sistema de gestão desenvolvido para facilitar o gerenciamento de [insira aqui o foco do sistema, ex: clientes, estoque, vendas, etc.]. Com uma interface intuitiva e funcionalidades poderosas, ele ajuda a otimizar processos e aumentar a produtividade.
 
-# Tecnologias Utilizadas:
-Java: Linguagem de programação para desenvolvimento da aplicação.
-BufferedReader/BufferedWriter: Para leitura e escrita de dados no arquivo de texto.
-HashMap: Para armazenar os clientes em memória temporária, associando um ID único a cada cliente. 
+## Tecnologias utilizadas
+- **Front-end**: HTML, CSS, JavaScript
+- **Back-end**: Python (Flask ou Django - ajuste conforme o seu caso)
+- **Banco de dados**: SQLite (ou outro banco de dados utilizado)
+- **Outras ferramentas**: Bootstrap para estilização
+
+## Funcionalidades
+- Cadastro e gerenciamento de [clientes/produtos/vendas/etc.].
+- Relatórios e análises em tempo real.
+- Interface responsiva e fácil de usar.
+
+## Como configurar e executar o projeto
+
+### Pré-requisitos
+- Python 3.x instalado.
+- Git instalado (opcional, para clonar o repositório).
+
+### Passos para execução
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/v1ct0rjoao/SGC.git
